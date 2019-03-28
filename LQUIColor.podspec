@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   This library extension some UIColor function.
                        DESC
 
-  s.homepage         = 'https://github.com/anonymous-qsh/LQ-UIColor'
+  s.homepage         = 'https://github.com/anonymous-qsh/LQ-UIColors'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Little Queen' => 'anonymous.qsh@gmail.com' }
-  s.source           = { :git => 'https://github.com/anonymous-qsh/LQ-UIColor.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/anonymous-qsh/LQ-UIColors.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
