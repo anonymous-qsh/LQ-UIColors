@@ -1,0 +1,16 @@
+PODS:
+  - LQUIColor (0.1.0)
+
+DEPENDENCIES:
+  - LQUIColor (from `../`)
+
+EXTERNAL SOURCES:
+  LQUIColor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LQUIColor: 37c9c35e30e53e6f60bb6a0f6534525607716287
+
+PODFILE CHECKSUM: 795c2975ed7e8f320fae2394e985aea8bc39f6ef
+
+COCOAPODS: 1.7.0.beta.2
