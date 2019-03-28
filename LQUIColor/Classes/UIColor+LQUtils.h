@@ -15,6 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *) stringToColor:(NSString *)str;
 + (UIColor *) stringToColor:(NSString *)str andAlpha:(float)alpha;
 
+// hex string -> color : FF0000
++ (UIColor *) colorWithHexString:(NSString *)stringToConvert;
++ (UIColor *) colorWithHexString:(NSString *)stringToConvert andAlpha:(CGFloat)alpha;
+
 + (UIColor *) mainColor;
 + (UIColor *) separatorColor;
 + (UIColor *) separatorLineDarkColor;
@@ -29,14 +33,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *) btnEndColor;
 + (UIColor *) selectedColor;
 + (UIColor *) TopicCommentNameColor;
-
-// hex string -> color : FF0000
-+ (UIColor *) colorWithHexString:(NSString *)stringToConvert;
-+ (UIColor *) colorWithHexString:(NSString *)stringToConvert andAlpha:(CGFloat)alpha;
-
-// hex -> color : 0xFF0000
-+ (UIColor *) colorWithHex:(NSInteger)hexValue alpha:(CGFloat)alphaValue;
-+ (UIColor *) colorWithHex:(NSInteger)hexValue;
 
 @end
 

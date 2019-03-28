@@ -24,7 +24,7 @@
   [self.view addSubview:hexStringColorView];
   
   // color with string: #00FF00
-  UIView *stringColorView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+  UIView *stringColorView = [[UIView alloc] initWithFrame:CGRectMake(100 + 10, 100, 100, 100)];
   stringColorView.backgroundColor = [UIColor stringToColor: @"#00FF00"];
   [self.view addSubview:stringColorView];
   
